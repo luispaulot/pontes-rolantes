@@ -1,3 +1,3 @@
 clear
-importar
-dados = calcular(dados, tempo_trafego, tempo_tratamento, tempo_aco)
+carregar_dados
+dados = calcular(dados, tempo_tratamento, tempo_aco, tempo_trafego)

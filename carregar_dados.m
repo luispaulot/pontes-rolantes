@@ -5,15 +5,6 @@ tempo_tratamento = [38      % CV
 					34		% LC
 					20];	% BO
 
-tempo_trafego = [15 	% CV-FP
-				 10 	% CV-RH
-				 15 	% CV-LC
-				 10 	% FP-RH
-				 15		% RH-LC
-				 15 	% RH-CC
-				 10		% FP-CC
-				 10 	% CV-CC
-				 6];	% EB-CC
 
 tempo_aco = [34	% A
 			34	% B
@@ -30,3 +21,15 @@ tempo_aco = [34	% A
 			30	% M
 			30	% N
 			30];% O
+
+
+tempo_trafego = [15 	% CV-FP
+				 10 	% CV-RH
+				 15 	% CV-LC
+				 10 	% FP-RH
+				 15		% RH-LC
+				 15 	% RH-CC
+				 10		% FP-CC
+				 10 	% CV-CC
+				 15 	% FP-LC
+				 6];	% EB-CC
